@@ -1,0 +1,35 @@
+.web_coding_container .web_coding-user-message {
+    position: relative;
+    min-height: 40px;
+    display: flex;
+}
+
+.web_coding_container .web_coding-user-message.web_coding .web_coding-user-name {
+    color: #a970ff!important;
+}
+
+.web_coding_container .web_coding-user-message.web_coding {
+    flex-direction: row-reverse;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.web_coding_container .web_coding-user-content {
+    flex: 1;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.web_coding_container .web_coding-user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.web_coding_container .web_coding-user-name {
+    font-size: 10px;
+    position: relative;
+    display: block;
+}
+
+.web_coding_container div .chat-line__username-container.tw-inline-block, .chat-line__username-container + span{
+    display: none !important;
+}
